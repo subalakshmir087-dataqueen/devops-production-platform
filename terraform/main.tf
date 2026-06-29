@@ -1,7 +1,7 @@
 
 resource "google_compute_instance" "devops_server" {
   name         = "devops-server"
-  machine_type = "e2-micro"
+  machine_type = "e2-small"
   zone         = var.zone
 
   boot_disk {
